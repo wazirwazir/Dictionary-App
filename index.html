@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><img class="logo" src="assets/images/logo.svg" alt="logo"></li>
+            <li><button>Serif <img src="assets/images/icon-arrow-down.svg" alt="arrow-down"></button></li>
+            <li><button class="switch"><div class="circle"></div></button></li>
+            <li><img src="assets/images/icon-moon.svg" alt=""></li>
+        </ul>
+    </nav>
+    <main>
+        <input type="search" min="1" placeholder="Search for any word ..." id="searchbox" >
+        <label for="searchbox">Can't be empty</label>
+        <div class="wrapper">
+
+        </div>
+    </main>
+    <template id="meaning">
+        <header>
+            <div class="word">
+            <h1>Keyboard</h1>
+            <p id="phonetic">/KIsgs/</p>
+            </div>
+        <audio src=""></audio> 
+        <button><img src="assets/images/icon-play.svg" alt="play"></button></header>
+        <div id="meaning"></div>
+        </template>
+    </template>
+    <footer>
+        <p>Source: <a id="sourceUrls" href=""></a></p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
